@@ -51,8 +51,8 @@ export function selectPhoneSuccess(id) {
 
 export function selectPhone(id){
   return function(dispatch){
-    dispatch(selectPhoneSuccess(id))
-  }
+    dispatch(selectPhoneSuccess(id));
+  };
 }
 
 export function removePhone(){
